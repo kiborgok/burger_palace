@@ -3,3 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main{
+    flex: 1;
+}
+
+.header-background{
+    background-color: yellow;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.menu{
+    display: flex;
+    padding: 0 70px 0 70px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.right-menu-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+}
+
+.links > li{
+    display: flex;
+    margin-left: 30px;
+}
+
+.cart{
+    display: flex;
+    margin-left: 100px;
+}
+
+.lower-header{
+    display: flex;
+    padding: 0 150px 0 90px;
+}
+
+.header-introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+    width: 50%;
+}
+
+.header-image{
+    width: 50%;
+     justify-content: center;
+     align-items: center;
+}
+.header-image > img{
+    width: 100%;
+}
