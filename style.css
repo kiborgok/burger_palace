@@ -10,7 +10,7 @@ main{
 }
 
 .header-background{
-    background: linear-gradient(100deg, white 50%, #F6B400 50%)
+    background: linear-gradient(105deg, white 50%, #F6B400 50%)
 }
 
 .menu-container{
@@ -227,3 +227,36 @@ main{
 #active{
     color: #F6B400;
 }
+
+.mobile{
+    height: 500px;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    background-color: #F6B400;
+}
+
+.mobile-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.mobile-info > div{
+    margin-bottom: 50px;
+}
+
+.mobile-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.mobile-img > img{
+     margin: 0 20px;
+}
+
