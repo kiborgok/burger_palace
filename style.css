@@ -65,3 +65,27 @@ main{
 .header-image > img{
     width: 100%;
 }
+
+.offer-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: seashell;
+    height: 500px;
+}
+
+.offer-items > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    width: 25%;
+    border: 1px solid purple;
+    border-radius: 15px;
+    padding: 30px
+}
+
+.offer-items > div > p{
+    text-align: center;
+}
