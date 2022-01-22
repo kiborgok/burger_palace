@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
 main{
@@ -71,7 +72,7 @@ main{
     align-items: center;
     justify-content: space-evenly;
     background-color: seashell;
-    height: 500px;
+    padding: 150px 30px 80px 30px;
 }
 
 .offer-items > div{
@@ -79,13 +80,76 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 380px;
-    width: 25%;
     border: 1px solid purple;
     border-radius: 15px;
-    padding: 30px
+    padding: 30px;
+    margin: 5px;
 }
 
 .offer-items > div > p{
     text-align: center;
+}
+
+.burger-types{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.burger-types > article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.burgers{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.burger-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 25px;
+    padding: 25px 30px;
+    border: 1px solid grey;
+    border-radius: 25px;
+}
+
+.burger-item > article{
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.burger-item > div{
+    width: 100%;
+}
+
+.burger-item > p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ksh-trolley{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ksh-trolley > div{
+    padding: 10px;
+}
+
+.burger-item > div > img{
+    width: 100%;
+    height: auto;
 }
