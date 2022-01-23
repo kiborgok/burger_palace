@@ -235,7 +235,24 @@ main{
 }
 
 .ksh-trolley > div{
-    padding: 10px;
+    display: flex;
+    width: 55px;
+    background-color: #E1EBE6;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.ksh-trolley > div > img{
+    width: 60%;
+}
+
+
+.ksh-trolley > div > span{
+    font-weight: bold;
+    color: cadetblue;
+    padding: 5px;
 }
 
 .burger-item > div > img{
