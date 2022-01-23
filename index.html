@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Burger Palace</title>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -14,10 +15,16 @@
             <div class="header-background">
                 <nav class="menu-container">
                     <div class="menu">
-                        <div class="logo">Logo</div>
+                        <div class="logo">
+                            <div><img src="./images/logo.png" alt="Logo"></div>
+                            <strong class="logo-name">Bur<span>ger</span></strong>
+                        </div>
                         <div class="right-menu-group">
                             <ul class="links">
-                                <li class="home"><a href="#">Home</a></li>
+                                <li class="home"><a href="#">
+                                    Home
+                                    <div id="home" class="bottom-line"></div>
+                                </a></li>
                                 <li class="offers"><a href="#">Offers</a></li>
                                 <li class="contact"><a href="#">Contact</a></li>
                                 <li class="about"><a href="#">About</a></li>
@@ -28,22 +35,20 @@
                 </nav>
                 <div class="lower-header">
                     <div class="header-introduction">
-                        <div>
+                        <div class="header-title">
                             <p><strong>Rain or shine,</strong></p>
-                            <p><strong>its time to dine.</strong></p>
+                            <p><strong>it's time to dine.</strong></p>
                         </div>
-                        <br>
-                        <div>
+                        <div class="header-description">
                             <p>We cook & deliver the tastiest burgers</p>
                             <p>right away to your designated location</p>
                         </div>
-                        <br>
-                        <div>
+                        <div class="header-button">
                             <button>Order Now</button>
                         </div>
                     </div>
                     <div class="header-image">
-                        <img src="./images/CITYPNG.png" alt="">
+                        <img src="./images/CITYPNG.png" alt="Burger">
                     </div>
                 </div>
             </div>
@@ -69,7 +74,10 @@
             </div>
         </section>
         <section class="burger-types">
-            <article class="our-menu"><strong>Our <span>Menu</span></strong></article>
+            <article class="our-menu">
+                <strong>Our <span>Menu</span></strong>
+                <div class="bottom-line"></div>
+            </article>
             <div class="burgers">
                 <div class="row">
                     <div class="burger-item">
@@ -196,7 +204,7 @@
                 <div>
                     <img src="./images/logo.png" alt="Logo">
                 </div>
-                <p><strong>Burger</strong></p>
+                <p><strong class="logo-name">Bur<span>ger</span></strong></p>
             </div>
             <div class="footer-nav">
                 <p><strong>Sitemap</strong></p>
