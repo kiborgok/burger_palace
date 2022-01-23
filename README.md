@@ -1,8 +1,6 @@
 # Burger Palace
 An online burger shop where you buy a burger and it is delivered to you.
 
-# By **Alex Kiborgok**
-
 # Description
 This is a web application for ordering burger. Once you order your available burger, you'll recieve your burger at your prefered location. Burger palace delivers all burgers ordered for free.
 
