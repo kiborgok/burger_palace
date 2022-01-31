@@ -481,3 +481,81 @@ form > button{
     object-fit:scale-down;
     margin: auto;
 }
+
+.logo > .lg{
+    display: flex;
+    align-items: center;
+}
+
+/* Media queries */
+
+@media only screen and (min-width:769px) {
+    .logo > .s-cart{
+        display: none;
+    }
+}
+
+/* Small devices (Mobile phone) */
+@media only screen and (max-width:769px){
+    .menu-container{
+        padding: initial;
+    }
+    .menu {
+        flex-direction: column;
+        padding: initial;
+        background-color: aliceblue;
+    }
+    .logo{
+        justify-content: space-between;
+        margin: 10px 15px;
+        margin-right: 25px;
+    }
+    .links{
+        flex-direction: column;
+        margin-right: initial;
+    }
+
+    .links > li{
+        margin-left: initial;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .links > li > a{
+        font-size: 2em;
+        font-weight: initial;
+    }
+
+    .right-menu-group{
+        width: initial;
+        justify-content: center;
+    }
+
+    .s-cart > img{
+        width: 40px;
+    }
+
+    .cart{
+        display: none;
+    }
+
+    .lower-header{
+        padding: initial;
+        margin: 10px;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+    }
+
+    .header-image{
+        display: flex;
+    }
+
+    .offer-items{
+        flex-direction: column;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+}
